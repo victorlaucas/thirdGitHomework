@@ -1,4 +1,4 @@
-export const weightedLottery = weights => {
+export default function weightedLottery(weights) {
   let containerArray = [];
 
   Object.keys(weights).forEach(key => {
